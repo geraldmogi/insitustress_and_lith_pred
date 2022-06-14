@@ -1,7 +1,7 @@
 # insitustressprediction
 
-The purpose of this project is to predict maximum horizontal stress magnitude (sigma SHmax) using machine learning model. In this project we use Random Forest Regressor.
-The dataset used is a dataset from well lost hill. We use several independent variables to predict the value of Sigma SHmax, below are the variables used:
+The purpose of this project is to predict effective maximum horizontal stress magnitude (Sigma SHmax) using machine learning model. In this project we use Random Forest Regressor.
+The dataset used is a dataset from well lost hill. We use several independent variables to predict the value of "Sigma SHmax", below are the variables used:
 
  0   DEPTH                             (int64)  
  1   Pore_Pressure                     (int64)  

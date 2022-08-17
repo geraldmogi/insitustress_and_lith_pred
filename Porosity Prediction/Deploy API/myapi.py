@@ -20,7 +20,7 @@ def predict():
 
     output = round(prediction[0], 4)
 
-    return render_template('index.html', prediction_text='Effective Porosity (PHIE) = {}%'.format(output))
+    return render_template('index.html', prediction_text='PHIE Predicted Value = {}%'.format(output))
 
 @app.route('/predict_api',methods=['POST'])
 def predict_api():

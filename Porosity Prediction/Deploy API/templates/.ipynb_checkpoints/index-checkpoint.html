@@ -15,10 +15,11 @@
 <body>
  <div class="login">
 	<h1>Effective Porosity (PHIE) Prediction</h1>
-    <h2>Created by Gerald Darshan Mogi</h2>
+    <h5>Created by</h5>
+    <h2>Gerald Darshan Mogi</h2>
     <h3>Geological Engineering Pertamina University</h3>
     <h4>NIM: 101218114</h4>
-
+    
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
     	<input type="text" name="DEPTH" placeholder="DEPTH" required="required" />
@@ -33,7 +34,7 @@
 
    <br>
    <br>
-   {{ prediction_text }}
+   <h1> {{ prediction_text }} </h1>
 
  </div>
 
